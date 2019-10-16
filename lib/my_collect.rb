@@ -1,5 +1,5 @@
 def my_collect(array)
-  if block_given?
+  # if block_given?
     i = 0
     new_array = []
     while i < array.length
@@ -7,7 +7,7 @@ def my_collect(array)
       i += 1
     end
     new_array
-  else
-    puts "No block given"
-  end
+  # else
+  #   puts "No block given"
+  # end
 end
